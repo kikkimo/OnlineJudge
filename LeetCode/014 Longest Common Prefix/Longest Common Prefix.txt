@@ -1,0 +1,9 @@
+Write a function to find the longest common prefix string amongst an array of strings.
+
+e.g:
+input:["aaab","aaac","aabc","bc"]
+output:""
+
+input:["aaab","aaac","aabc","abbc"]
+output:"a"
+

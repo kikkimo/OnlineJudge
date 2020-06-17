@@ -1,0 +1,24 @@
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+
+行数为1，则数的间隔为1
+行数为2，间隔为 2
+                2
+行数为3，间隔为   4
+                2   2
+                  4
+行数为4，间隔为   6
+                4   2
+                2   4
+                  6
+                           
+       
